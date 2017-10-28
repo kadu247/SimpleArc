@@ -10,7 +10,7 @@ def inicio():
  / \ / \ / \ / \ / \ / \ / \ / \ / \ 
 ( \033[1;32mS\033[m | \033[1;32mi\033[m | \033[1;32mm\033[m | \033[1;32mp\033[m | \033[1;32ml\033[m | \033[1;32me\033[m | \033[1;32mA\033[m | \033[1;32mr\033[m | \033[1;32mc\033[m )
  \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/ v1.0
-                                     by: ᴎoᴎame''')
+                                     by: nuxware''')
     print('''(\033[1;32m1\033[m) Install
 (\033[1;32m0\033[m) Exit
     ''')
@@ -26,11 +26,11 @@ def inicio():
  \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/ v1.0
                                      by: ᴎoᴎame            
             ''')
-            # Clone from Github
+            # Clonar repo Github
             system('git clone https://github.com/kadu247/SimpleArc.git /tmp/SimpleArc')
             sleep(2)
             print('\033[1;32mOK\033[m\n')
-            # Make directory
+            # Criar directório
             sleep(2)
             print('Creating directories...')
             sleep(2)
@@ -38,6 +38,7 @@ def inicio():
             sleep(2)
             print('\033[1;32mOK\033[m\n')
             print('Copying files...')
+            # Copiar e remomear
             system('sudo cp -R /tmp/SimpleArc/src/* /usr/share/icons/SimpleArc')
             print('\033[1;32mOK\033[m\n')
             sleep(2)
